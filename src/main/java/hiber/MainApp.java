@@ -43,6 +43,7 @@ public class MainApp {
       userService.add(user3);
       userService.add(user4);
 
+      System.out.println("\n\n");
       List<User> users = userService.listUsers();
       for (User user : users) {
 //         System.out.println("Id = "+user.getId());
@@ -53,6 +54,7 @@ public class MainApp {
          System.out.println(user);
          System.out.println();
       }
+      System.out.println("\n\n");
 
       System.out.println(userService.getUserByCar("Reno", 8));
 
